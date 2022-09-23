@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="HybridECom">
+
+	<listeners>
+		<listener class-name="com.hybridecom.utilities.Reporting" />
+	</listeners>
+
+	<test name="Login Test_Chrome">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<!--  <class name="com.hybridecom.testCases.TC_LoginTest_001" />-->
+			<class name="com.hybridecom.testCases.TC_LoginDataDrivenTest_001" />
+		</classes>
+	</test>
+
+	<!-- <test name="Login Test_Firefox"> <parameter name="browser" value="firefox"/> 
+		<classes> <class name="com.hybridecom.testCases.TC_LoginTest_001" /> </classes> 
+		</test> -->
+</suite>
